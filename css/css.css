@@ -1,0 +1,393 @@
+
+
+/* First Row */
+
+
+
+/* mini reset */
+.nav,
+.nav a,
+.nav form,
+.nav input,
+.nav li,
+.nav ul {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+
+}
+.nav a {
+  text-decoration: none;
+}
+.nav li {
+  list-style: none;
+  width: 16.66%;
+}
+
+/* menu container */
+.nav,
+input {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+.nav {
+  cursor: default;
+  display: inline-block;
+  position: relative;
+  z-index: 500;
+}
+
+/* menu list */
+.nav > li {
+  float: left;
+}
+
+/* menu links */
+.nav > li > a {
+  background: white;
+  color: black;
+  display: block;
+  font-weight: bold;
+  line-height: 3.5;
+  padding: 0 1.25em;
+  position: relative;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.35);
+  transition: all .3s ease;
+  z-index: 510;
+}
+.nav > li > a:focus,
+.nav > li:hover > a {
+  background: black;
+  color:white;
+}
+.nav > li:first-child > a {
+  border-left: none;
+}
+
+
+/* menu dropdown */
+.mega-menu {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0 0 3px 3px;
+  opacity: 0;
+  position: absolute;
+  transition: all .3s ease .15s;
+  visibility: hidden;
+  width: 100%;
+  font-size: 15px;
+}
+li:hover > .mega-menu {
+  opacity: 1;
+  overflow: visible;
+  visibility: visible;
+}
+
+/* menu content */
+.nav-column {
+  float: left;
+  padding: 2.5%;
+  width: 20%;
+}
+.nav-column a {
+  color: #888;
+  display: block;
+  font-weight: bold;
+  line-height: 1.75;
+}
+.nav-column a:hover {
+  color: #2196f3;
+}
+h3 {
+  color: #372f2b;
+  font-size: .95em;
+  font-weight: bold;
+  line-height: 1.15;
+  margin: 1.25em 0 .75em;
+  text-transform: uppercase;
+}
+.highlight {
+  color: #2196f3;
+}
+
+.nav-column ul li {
+    width: 100%;
+}
+
+.carousel-caption {
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.35);
+}
+
+
+/* ----------------------------------------- End of Navbar */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid rgb(76, 219, 255);
+    margin: 1em 0;
+    padding: 0;
+    margin-top: 0;
+}
+
+.icons {
+    padding: 20px;
+    font-size: 24px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 8px;
+    background: #fff;
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+}
+/* ------------------------- */
+
+.first-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social-icon-group {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bold-text {
+    font-weight: 700;
+    font-size:1em;
+}
+
+.sign-in {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fa-search {
+    margin-right: 8px;
+}
+
+/* css for carousel */
+.carousel {
+    height: 600px;
+    margin-top: 20px;
+}
+
+.carousel-caption {
+    position: absolute;
+    left: 300;
+    top: 25%;
+    text-align: left;
+    float: left;
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+.jumbotron {
+    background: white;
+    text-align: center;
+}
+
+.second-line {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    border: 0;
+    border-top: 2px solid black;
+    padding: 0;
+}
+
+/* card-group section */
+
+.card-section {
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 300px;
+    background: transparent;
+}
+
+.card {
+    border:none;
+    text-align: center;
+    background: transparent;
+    margin: 10px;
+    
+}
+
+.card-group-title {
+    display: flex;
+    justify-content:center;
+
+}
+
+.card-section-2 {
+    height: 250px;
+    margin-top: 50px;
+    margin-bottom: 300px;
+    background: transparent;
+}
+
+.last-part {
+    outline: 5px solid rgb(76, 219, 255);
+}
+
+.custom {
+    background-color: rgb(76, 219, 255);
+}
+
+.section-title-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.card-group-title {
+    margin-bottom: 40px;
+}
+
+/* css for event section */
+
+.last-part {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 700;
+}
+
+
+/* hover effect of images */
+.hvrbox,
+.hvrbox * {
+	box-sizing: border-box;
+}
+.hvrbox {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+.hvrbox img {
+	max-width: 100%;
+}
+.hvrbox .hvrbox-layer_bottom {
+    display: block;
+    -webkit-transition: all 0.4s;
+}
+.hvrbox .hvrbox-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+    opacity: 0.9;
+    border: 3px solid #000000;
+}
+
+.hvrbox:hover .hvrbox-layer_bottom {
+    transform: scale(0.95);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.hvrbox .hvrbox-text {
+	text-align: center;
+	font-size: 13px;
+	display: inline-block;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.hvrbox .hvrbox-text_mobile {
+	font-size: 15px;
+	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+	border-top: 1px solid rgba(179, 179, 179, 0.7);
+	margin-top: 5px;
+	padding-top: 2px;
+	display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+	display: block;
+}
+
+.hvrbox {
+    box-shadow: 3px 3px 3px grey !important;
+}
+
+.card-img-top {
+    box-shadow: 3px 3px 3px grey !important;
+}
+/* instagram-section */
+
+.card-section-3 {
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    background: transparent;
+}
+
+.instagram-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.inner-title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inner-title > i {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.card-section-3 .card {
+    -webkit-transition: all 0.5s;
+}
+.card-section-3 .card:hover {
+    margin-top: 0px;
+    transition: all 0.5s;
+}
+
+/* css for footer */
+.border-top {
+    border-top: none!important;
+}
+

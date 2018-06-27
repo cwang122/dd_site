@@ -1,0 +1,16 @@
+
+.first-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid rgb(76, 219, 255);
+    margin: 1em 0;
+    padding: 0;
+    margin-top: 0;
+}
