@@ -1,0 +1,290 @@
+/* First Row */
+
+
+/* mini reset */
+.nav,
+.nav a,
+.nav form,
+.nav input,
+.nav li,
+.nav ul {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+
+}
+.nav a {
+  text-decoration: none;
+}
+.nav li {
+  list-style: none;
+  width: 16.66%;
+}
+
+/* menu container */
+.nav,
+input {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+.nav {
+  cursor: default;
+  display: inline-block;
+  position: relative;
+  z-index: 500;
+}
+
+/* menu list */
+.nav > li {
+  float: left;
+}
+
+/* menu links */
+.nav > li > a {
+  background: white;
+  color: black;
+  display: block;
+  font-weight: bold;
+  line-height: 3.5;
+  padding: 0 1.25em;
+  position: relative;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.35);
+  transition: all .3s ease;
+  z-index: 510;
+}
+.nav > li > a:focus,
+.nav > li:hover > a {
+  background: black;
+  color:white;
+}
+.nav > li:first-child > a {
+  border-left: none;
+}
+
+
+/* menu dropdown */
+.mega-menu {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0 0 3px 3px;
+  opacity: 0;
+  position: absolute;
+  transition: all .3s ease .15s;
+  visibility: hidden;
+  width: 100%;
+  font-size: 15px;
+}
+li:hover > .mega-menu {
+  opacity: 1;
+  overflow: visible;
+  visibility: visible;
+}
+
+/* menu content */
+.nav-column {
+  float: left;
+  padding: 2.5%;
+  width: 20%;
+}
+.nav-column a {
+  color: #888;
+  display: block;
+  font-weight: bold;
+  line-height: 1.75;
+}
+.nav-column a:hover {
+  color: #2196f3;
+}
+h3 {
+  color: #372f2b;
+  font-size: .95em;
+  font-weight: bold;
+  line-height: 1.15;
+  margin: 1.25em 0 .75em;
+  text-transform: uppercase;
+}
+.highlight {
+  color: #2196f3;
+}
+
+.nav-column ul li {
+    width: 100%;
+}
+
+.carousel-caption {
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.35);
+}
+
+
+/* ----------------------------------------- End of Navbar */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid rgb(76, 219, 255);
+    margin: 1em 0;
+    padding: 0;
+    margin-top: 0;
+}
+
+.icons {
+    padding: 20px;
+    font-size: 24px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 8px;
+    background: #fff;
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+}
+
+/* Inline Form Search Bar After Carousel */
+
+
+.jumbotron {
+    margin-top: 50px;
+    margin-bottom:50px;
+}
+
+.jumbotron > .container > form {
+    display: block;
+
+}
+
+.form-inline {
+    box-sizing: border-box!important;
+}
+
+.form-inline > input{
+    width: 90%!important;
+    border-radius: 4px;
+    margin-right:0px!important;
+}
+
+button > .fa-search {
+    margin: 0px;
+}
+/* ------------------------- */
+
+.first-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social-icon-group {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bold-text {
+    font-weight: 700;
+    font-size:1em;
+}
+
+.sign-in {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fa-search {
+    margin-right: 8px;
+}
+
+/* css for carousel */
+.carousel {
+    
+    height: 720px;
+    margin-top: 20px;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    margin: auto;
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+.jumbotron {
+    background: white;
+    text-align: center;
+}
+
+.second-line {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    border: 0;
+    border-top: 2px solid black;
+    padding: 0;
+}
+
+/* card-group section */
+
+/* card-group section */
+
+.card-section {
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 300px;
+    background: transparent;
+}
+
+.card {
+    border:none;
+    text-align: center;
+    background: transparent;
+    margin: 10px;
+    
+}
+
+.card-group-title {
+    display: flex;
+    justify-content:center;
+
+}
+
+.card-section-2, .card-section-3, .card-section-4, .card-section-5, .card-section-6 {
+    height: 250px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    background: transparent;
+}
+
+.card-section-4 {
+    margin-bottom: 380px;
+}
+
+.card-img-overlay {
+    display:none;
+}
+
+.card:hover .card-img-overlay {
+    display:block;
+}
+
+.card-title {
+    margin-top: auto;
+
+}
