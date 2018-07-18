@@ -1,5 +1,34 @@
+
 /* First Row */
 
+
+.first-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social-icon-group {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bold-text {
+    font-weight: 700;
+    font-size:1em;
+}
+
+.sign-in {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fa-search {
+    margin-right: 8px;
+}
 
 /* mini reset */
 .nav,
@@ -150,169 +179,98 @@ hr {
     font: 32px Arial, sans-serif;
 }
 
+/* CSS Code For Jumbotron */
 
-/* ------------------------- */
-
-.first-row {
+.jumbotron {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    background-image: url('../images/about_bg.jpg');
+    color: black;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
 }
+
+.jumbotron-fluid > container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     
+} 
+
+/* css for mission */
+
+.mission {
+  margin-top: 75px;
+}
+
+.starter-text {
+  font-weight: 700;
+  font-size: 1.25em;
+}
+
+/* css for video */
+
+.video-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.video-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+/* css for history section */
+
+/* css for team profile section */
+
+.profile {
+  display:flex;
+  flex-direction:row;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.description {
+  margin-left: 20px;
+}
+
+/* ---------------------Common use css ------------------ */
+
+/* css for second line */
+
+.second-line {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 2px;
+  border: 0;
+  border-top: 2px solid black;
+  padding: 0;
+}
+
+/* css for footer */
+
+.border-top {
+    border-top: none!important;
+}
+
 
 .social-icon-group {
     position: relative;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
+    margin-top: 15px;
 }
 
-.bold-text {
-    font-weight: 700;
-    font-size:1em;
-}
-
-.sign-in {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.fa-search {
-    margin-right: 8px;
-}
-
-/* css for carousel */
-.carousel {
-    height: 850px;
-    margin-top: 20px;
-}
-
-.carousel-caption {
-    position: absolute;
-    left: 300;
-    top: 25%;
-    text-align: left;
-    float: left;
-}
-
-.btn {
-    border-radius: 5px;
-}
-
-.jumbotron {
-    background: white;
-    text-align: center;
-}
-
-.second-line {
-    display: block;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 2px;
-    border: 0;
-    border-top: 2px solid black;
-    padding: 0;
-}
-
-/* Vertically Aligned Gallery  */
-
-.row-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
-
-.gallery-shell { 
-    display: none;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-    box-sizing: border-box;
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-}
-
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    max-width: 100%;
-    max-height: 100%;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-    .column {
-        -ms-flex: 50%;
-        flex: 50%;
-        max-width: 50%;
-    }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-        -ms-flex: 100%;
-        flex: 100%;
-        max-width: 100%;
-    }
-}
-
-/* before gallery section */
-
-/* Inline Form Search Bar After Carousel */
-
-
-.jumbotron > .container > form {
-    display: block;
-
-}
-
-.form-inline {
-    box-sizing: border-box!important;
-}
-
-.form-inline > input{
-    width: 80%!important;
-    margin-right:0px!important;
-    margin-left: 50px;
-}
-
-
-
-button > .fa-search {
-    margin: 0px;
-}
-
-.search-box {
-    width: 45%;
-}
-
-/* Before Gallery Select DropDown Section */
-
-.before-gallery {
-    display: flex;
-    justify-content:space-between;
-}
-
-form > .btn {
-    border-radius: 0px!important;
-    margin-left: 5px;
-}
-
-.before-gallery > .form-group {
-    width: 40%;
-    margin-right: 50px;
-}
-
-/* css for bottom-btn-group */
-
-.bottom-btn-group {
-    margin-top: 40px;
-}
-
-.bottom-btn-group > p {
-    text-align: right;
+.social-icon-group a {
+    margin-left: 10px;
+    margin-right: 10px;
 }

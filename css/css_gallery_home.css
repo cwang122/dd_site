@@ -206,19 +206,24 @@ button > .fa-search {
     margin-right: 8px;
 }
 
-/* css for carousel */
-.carousel {
-    
-    height: 720px;
-    margin-top: 20px;
+/* css for firs jumbotron */
+.firstcall {
+    display: flex;
+    background-image: url('../images/interior.jpg')!important;
+    color: black;
+    height: 700px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15px;
 }
 
-.carousel-caption {
-    position: absolute;
-    top: 35%;
-    text-align: center;
-    margin: auto;
-}
+.jumbotron-fluid > container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     
+} 
 
 .btn {
     border-radius: 5px;
@@ -287,4 +292,24 @@ button > .fa-search {
 .card-title {
     margin-top: auto;
 
+}
+
+/* css for footer */
+
+.border-top {
+    border-top: none!important;
+}
+
+
+.social-icon-group {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.social-icon-group a {
+    margin-left: 10px;
+    margin-right: 10px;
 }
