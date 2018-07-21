@@ -1,9 +1,7 @@
+/* First Row */
 
-.first-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
+
+/* ----------------------------------------- End of Navbar */
 
 hr {
     display: block;
@@ -13,4 +11,120 @@ hr {
     margin: 1em 0;
     padding: 0;
     margin-top: 0;
+}
+
+.icons {
+    padding: 20px;
+    font-size: 24px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 8px;
+    background: #fff;
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+}
+
+
+/* ------------------------- */
+
+.first-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social-icon-group {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bold-text {
+    font-weight: 700;
+    font-size:1em;
+}
+
+.sign-in {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fa-search {
+    margin-right: 8px;
+}
+
+/* css for sign-in section above */
+
+.firstcall {
+    display: flex;
+    background-image: url('../images/kitchen.jpg')!important;
+    color: black;
+    height: 700px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.jumbotron-fluid > container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     
+} 
+
+.btn {
+    border-radius: 5px;
+}
+
+.jumbotron {
+    background: white;
+    text-align: center;
+}
+
+.second-line {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    border: 0;
+    border-top: 2px solid black;
+    padding: 0;
+}
+
+/* css for text */
+
+.container h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* css for sign-in function */
+
+.check-n-click {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.check-n-click button {
+    width: 25%;
+}
+
+/* css for bottom-btn-group */
+
+.bottom-btn-group {
+    margin-top: 40px;
+}
+
+.bottom-btn-group > p {
+    text-align: right;
 }
