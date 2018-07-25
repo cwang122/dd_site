@@ -206,13 +206,15 @@ button > .fa-search {
     margin-right: 8px;
 }
 
+
+
 /* css for first jumbotron */
 
 .firstcall {
     display: flex;
-    background-image: url('../images/directory_sub.jpg')!important;
+    background-image: url('../images/properties_bg.jpg')!important;
     color: black;
-    height: 700px;
+    height: 664px;
     text-align: center;
     justify-content: center;
     flex-direction: column;
@@ -245,6 +247,11 @@ button > .fa-search {
     padding: 0;
 }
 
+h1 {
+    font-weight: 600!important;
+    color: whitesmoke;
+}
+
 /* card-group section */
 .card-section {
     display: block;
@@ -270,6 +277,7 @@ button > .fa-search {
     max-height: 250px;
 }
 
+
 .card-img-overlay {
     display: none;
     position: absolute;
@@ -293,6 +301,68 @@ button > .fa-search {
     margin-top: 50px;
     margin-bottom:50px;
 }
+
+
+/* before gallery section */
+
+/* Inline Form Search Bar After Carousel */
+
+
+.jumbotron > .container > form {
+    display: block;
+
+}
+
+.form-inline {
+    box-sizing: border-box!important;
+}
+
+.form-inline > input{
+    width: 65%!important;
+    margin-right:0px!important;
+    margin-left: 50px;
+    border-radius: 0;
+}
+
+
+
+button > .fa-search {
+    margin: 0px;
+}
+
+.search-box {
+    display: block;
+    width: 40%;
+}
+
+
+/* Before Gallery Select DropDown Section */
+
+.before-gallery {
+    display: flex;
+    justify-content:space-between;
+}
+
+form > .btn {
+    border-radius: 0px!important;
+    margin-left: 5px;
+}
+
+.before-gallery > .form-group {
+    width: 30%;
+    margin-right: 50px;
+}
+
+/* css for bottom-btn-group */
+
+.bottom-btn-group {
+    margin-top: 40px;
+}
+
+.bottom-btn-group > p {
+    text-align: right;
+}
+
 
 /* css for footer */
 
