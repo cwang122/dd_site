@@ -28,3 +28,5 @@ $(window).scroll(function () {
         $('.totop a').fadeOut();
     }
 });
+
+// JS For Search Bar
